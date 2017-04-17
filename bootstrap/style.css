@@ -1,0 +1,31 @@
+.col-sm-8{
+	border: 1px solid black;
+	height: 50px;
+	background-color: cyan; 
+
+}
+.col-sm-4{
+	border: 1px solid black;
+	height: 50px;
+	background-color: blue; 
+}
+.col-sm-12{
+	margin-top: 80px;
+	border: 1px solid black;
+	height: 500px;
+	background:white;
+}
+.hang6
+{
+	border: 1px solid black;
+	height: 500px;
+	background:black;
+}
+
+.fixed 
+{
+                position: fixed; 
+                width: 100%;
+                   
+                z-index: 2;           
+}
