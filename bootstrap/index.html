@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Demo Foody</title>
+    <title>Foody.vn</title>
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">   
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -36,27 +36,25 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-    <div id="container"  >
-    <header style="margin-left: 100px;">
+   
           
-                <div class="wrap-menu"> </div>
-                <div class="row"  >
-                    <div class="col-sm-12">
-                        <img src="images/header.jpg" alt="foody">
-                    </div>
-                </div>
-               
-                <ul class="nav nav-tabs" style="background-color: black; ">
-                  <li class="active"><a href="#">Khám Phá</a></li>
-                  <li><a href="trang2.html" target="_blank">Đặt Bàn</a></li>
-                  <li><a href="">Đặt Giao Hàng</a></li>
-                  <li><a href="#">Làm Đẹp</a></li>
-                  <li><a href="#">Du Lịch</a></li>
-                  <li><a href="#">FoodyPOS</a></li>
-                  <li><a href="#">Giảm Giá</a></li>
-                </ul>
-                <div class="container-fluid">
-                	 
+                <div class="container-topbar">
+      <div class="topbar">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="current">Khám phá</a></li>
+            <li><a href="datban.html" title="">Đặt bàn</a></li>
+            <li><a href="datgiaohang.html" title="Đặt giao hàng" >Đặt giao hàng</a></li>
+            <li><a href="#" title="">Làm đẹp</a></li>
+            <li><a href="#" title="">Du lịch</a></li>
+            <li><a href="#" title="">FoodyPOS</a></li>
+          </ul>         
+        </nav>        
+      </div> <!-- end top bar  -->
+      <div class="navbar-fixed" >
+        <nav class="white" data-spy="affix" data-offset-top="10">
+           <div class="container-fluid">
+                   
                  <div class="col-sm-4">
                      <img src="images/foody-vn.png" alt="">
                      <div class="btn-group"> <!--Tp.HCM -->
@@ -83,21 +81,21 @@ $(document).ready(function(){
                     </div>
                     </div>                    
                 <div class="col-sm-5">
-           			 <div id="imaginary_container"> 
-                		<div class="input-group stylish-input-group">
-		                    <input type="text" class="form-control"  placeholder="Địa điểm,ăn uống , loại hình" >
-		                    <span class="input-group-addon">
-		                    <button type="submit">
-                         		<span class="glyphicon glyphicon-barcode"></span>
-                   			 </button>
-                    			<span>Bộ Lọc</span>
-                        		<button type="submit">
+                 <div id="imaginary_container"> 
+                    <div class="input-group stylish-input-group">
+                        <input type="text" class="form-control"  placeholder="Địa điểm,ăn uống , loại hình" >
+                        <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-barcode"></span>
+                         </button>
+                          <span>Bộ Lọc</span>
+                            <button type="submit">
                             <span class="glyphicon glyphicon-search"></span>
-                        		</button>  
-                   			 </span>
-                		</div>
-            		 </div>
-        		</div>
+                            </button>  
+                         </span>
+                    </div>
+                 </div>
+            </div>
         <div class="col-sm-3">
         <div class="glyphicon glyphicon-hand-right wolf-focus-left alway-active"></div>  
             <div class="btn-group">
@@ -118,6 +116,10 @@ $(document).ready(function(){
         </div>
                 
              </div>
+        </nav>
+      </div>  <!-- end navbar fixed -->
+    </div>  <!-- end container-topbar -->
+               
                  
         </header> <!-- end header--> 
         </div>

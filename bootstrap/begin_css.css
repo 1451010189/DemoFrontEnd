@@ -4,6 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 
 html, body {
+  font-family:'Notosans,Arial,sans-serif';
     
 }
 
@@ -412,20 +413,20 @@ i
 .footer-app{
   width: 250px;
   height: 400px;
-  
   float: left;  
 }
 
 .footer-title
 {
     font-weight: 700;
-    color: #aaa;
+    
     border-bottom: #eee 1px solid;
     float: left;
     width: 100%;
     margin-bottom: 5px;
     margin-left: 35px;
     padding-top: 10px;
+    font-weight: bold;
 }
 .col-sm-2 ul li a {
   color:#1D95CB;
@@ -555,7 +556,7 @@ h2{
  }
 .Title-table
 {
-    font-family: Opensans-Bold;
+    font-family: 'Opensans-Bold;
     font-size: 20px;
     color:#f37934;
     line-height: 1.2;
@@ -712,4 +713,321 @@ color:orange;
     float: left;
     text-align: center;
     text-decoration: none;
+}
+
+/* --- Page đặt hàng------  
+/* --- Page đặt hàng------  
+/* --- Page đặt hàng------  
+/* --- Page đặt hàng------  
+/* --- Page đặt hàng------       */
+
+.container-topbar{
+    background: #333;
+    color: #fff;
+    margin: 0 auto 55px;
+    height: 35px;
+}
+.container-topbar ul li {
+  display: inline-block;
+}
+.container-topbar ul li a{
+  color: #fff;
+  padding: 8px 15px;
+  text-decoration: none;
+  display: block;
+  float: left;
+}
+.topbar{
+  margin: 0 auto;
+}
+.current{
+    background-color: #fff;
+    color: #000 !important;
+}
+.navbar-fixed{
+  position: absolute;
+  top: 35px;
+}
+.navbar-fixed nav {
+      color: #464646;
+    line-height: normal;
+    width: 100%;
+    height: 8%;
+    background-color: white;
+}
+.navbar-fixed nav a {
+  text-decoration: none;
+}
+.white{
+    background-color: #FFF!important
+    box-shadow: none;
+    border-bottom: #eee 1px solid;
+}
+.clearfix{
+  clear: both;
+}
+.container-header
+{
+  width: 1170px;  
+  margin: auto;
+}
+.logo-pull-left{
+  float: left;
+  margin-top: 12px;
+}
+.country-pull-left{
+    margin-top: 12px;
+    margin-left: 40px;
+    position: relative;
+     float: left;
+}
+.dropdown-button-location-select{
+    background-color: #f3f3f3;
+    line-height: 30px;
+    padding: 0 10px;
+    border-bottom: none;
+    border-radius: 2px;
+    color: #000;
+    font-size: 14px;
+    float: left;
+}
+ul#location-select{
+  top: 35px!important;
+}
+.top-cate{
+    float: left;
+    margin: 0 20px;
+    font-size: 14px
+}
+.top-cate a{
+    color: #555;
+    padding: 18px 10px;
+    float: left;
+}
+.user-deli-right{
+      margin-left: 10px;
+    position: relative;
+    margin-top: 10px;
+    
+}
+.btn-login{
+    height: 32px;
+    display: inline-block;
+    padding:0 10px;
+    background-color: #fff;
+    color:#cf2127;
+    font-size: 14px;
+    border-radius: 2px;
+    line-height: 30px;
+    border: 1px solid #cf2127;
+    margin: 10px auto;
+}   
+
+.container-banner-search{
+  position: relative;
+    text-align: center;
+} 
+.inside-banner h1{
+      color: #555;
+    text-align: center;
+    font-size: 24px;
+    padding: 55px 0 30px;
+    margin: 0;
+}
+.search-page{
+  margin: auto;
+    width: 660px;
+    position: relative;
+}
+.inside-banner{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.search-page input
+{
+  width: 600px;
+    background-color: #fff;
+    height: 60px;
+    border: none;
+    padding: 0 15px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    float: left;
+
+}
+.icon-search{
+  background: url('images/ico-search.png' )no-repeat 15px 16px #e1e1e1;
+      float: left;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.cap-top{
+  border-bottom: 1px solid #ddd;
+  height: 60px;
+}
+.cap-top-left{
+  float: left;
+}
+.cap-top-right{
+  float: right;
+}
+.giam{
+  color: #c00;
+  font-weight: bold;
+}
+.nhap-ma{
+      font-size: 10px;
+    color: #7d7d7d;
+    text-transform: uppercase;
+    text-align: center;
+}
+.cap-foot{
+  height: 50px;
+  color: #000;
+}
+.time-conlai{
+      margin-right: 10px;
+    padding: 3px 0;
+    color: #888;
+}
+.start-kitchen{
+  margin-top: 9px;
+    background-color: #029fc6;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 5px;
+}
+.txt_black {
+    line-height: 15px;
+    margin-top: 6px;
+    color: #000;
+    font-weight: bold;
+}
+.header-category{
+  padding:0 20px;
+ 
+}
+.title-header-category{
+  color:#cf2127;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.home-category{
+  
+}
+.home-category a{
+  float: left;
+  padding: 5px 10px;
+  margin: 0 15px 5px 0; 
+  display: block;
+  background-color: #0975b5;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+}
+#DeliveryNow-left {
+  float: left;
+  margin-left: 100px;
+}
+.DeliveryNow-right {
+  margin: 5px ;
+  float: right;
+
+}
+.link-footer  {
+  
+  line-height: 25px;
+}
+.link-footer ul li a {
+  text-decoration: none;
+  color:#898989;
+   text-align: left;
+  
+}
+.app{
+    font-size: 16px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+  box-shadow: 5px 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 5px 0;
+    margin-bottom: 14px;
+    margin-top: 12px  
+}
+.block-footer{
+  float:left;
+  color:#7a7f87;
+  text-align: center;
+  margin-left: 100px;
+
+}
+.logo-footer{
+ margin: 14px 0 17px 0;
+ width: 70%;
+}
+.social-icon{
+  margin-top: 15px;
+  
+
+}
+.social-icon a{
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  width: 40px;
+  float: left;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .2s linear;
+  margin: 7px auto;
+}
+.block-footer-last{
+  text-align: right;
+  float: right;
+  padding: 14px 30px 0 0;
+}
+.block-footer-last p {
+font-size: 12px;
+margin-bottom: 5px;
+}
+.back-top{
+  position: fixed;
+
+    bottom: -10px;
+    right: 0;
+    width: 40px;
+    background: #ccc;
+    font-size: 12px;
+    opacity: .9;
+}
+.back-top ul {
+      display: block;
+    float: left;
+    width: 100%;
+    margin-top: 0;
+}
+.back-top ul li {
+  display: block;
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+    border-bottom: 1px solid #c2c2c2;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
 }
